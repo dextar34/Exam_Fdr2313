@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+/* ******************************************************************************************************** */
+
+nav{
+    padding: 10px 0 0;
+    position: relative;
+}
+
+nav .test{
+    position: absolute;
+    height: 176.96px;
+    width: 112px;
+    top: 0;
+    left: 0;
+    background-color: #B2E3FF;
+    border-radius: 0 0 70%;
+}
+nav .test2{
+    position: absolute;
+    height: 700px;
+    width: 604.15px;
+    top: 0;
+    right: 0;
+    background-color: #B2E3FF;
+    border-radius: 0 0 0 70%;
+    z-index: -1;
+}
+
+nav .test2 img{
+    padding-top: 125px;
+    padding-right: 150px;
+}
+
+
+
+nav .container .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .container .main .navMenu{
+    display: flex;
+
+}
+
+nav .container .main .navMenu ul{
+    display: flex;
+    column-gap: 21px;
+    margin-left: 364px;
+    margin-right: 240px;
+}
+
+nav .container .main .navMenu ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    color: #555555;
+}
+
+nav .container .main .navBtn a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #23A6F0;
+}
+
+
+nav .container .main .btn{
+    margin-left: 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #23A6F0;
+}
+
+/* ******************************************************************************************************** */
+
+/* welcomePart */
+
+#welcomePart .container .row {
+    margin: 125px 0 175px;
+}
+
+#welcomePart .container .row h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    max-width: 542px;
+    padding: 30px 0;
+}
+
+#welcomePart .container .row h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #23A6F0;
+}
+
+#welcomePart .container .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 520px;
+    line-height: 120%;
+}
+
+#welcomePart .container .row .btn.one{
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #23A6F0;
+    background-color: #23A6F0;
+    color: #ffffff;
+    padding: 15px 45px;
+}
+#welcomePart .container .row .btn{
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+    padding: 15px 45px;
+}
+/* ******************************************************************************************************** */
+
+/* activityPart */
+
+#activityPart {
+    padding: 175px 0 160px;
+} 
+
+#activityPart .container .txt{
+    padding-bottom: 80px;
+}
+
+
+#activityPart .container .txt h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    max-width: 542px;
+    padding: 30px 0;
+}
+
+
+
+#activityPart .container .txt h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #23A6F0;
+}
+
+
+
+#activityPart .container .txt p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 490px;
+    line-height: 120%;
+}
+/* ******************************************************************************************************** */
+
+#activityPart .container .main .row{
+    column-gap: 30px;
+}
+
+#activityPart .container .main .row .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#activityPart .container .main .row .img{
+    width: 100px;
+    padding: 25px 0;
+}
+
+#activityPart .container .main .row p{
+    max-width: 132px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* ******************************************************************************************************** */
+
+#letterPart{
+    padding: 160px o;
+}
+
+#letterPart .container .txt {
+    text-align: center;
+}
+
+
+#letterPart .container .txt h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    max-width: 542px;
+    padding: 30px 0;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#letterPart .container .txt h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #23A6F0;
+}
+
+
+#letterPart .container .txt p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 490px;
+    line-height: 120%;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+#letterPart .container  {
+    text-align: center;
+}
+
+
+#letterPart .container
+
+#letterPart .container .b .btn{
+    text-align: center;
+    border-radius: 7px;
+    background-color: #23A6F0;
+    color: #f9fbfc;
+
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************************************************************************** */
+
+
+
+/* font-family: 'Open Sans', sans-serif; */
